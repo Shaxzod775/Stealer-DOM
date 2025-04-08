@@ -10,7 +10,7 @@ import requests
 
 
 
-TOKEN = '6410783052:AAGwQsVRg44VO1gwl86GRxc0ul32YibqqjY'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 # Определение application_path в зависимости от режима запуска
