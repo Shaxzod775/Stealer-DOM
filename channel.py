@@ -9,7 +9,7 @@ import psutil
 import requests
 
 
-
+# Your telegram bot token
 TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
